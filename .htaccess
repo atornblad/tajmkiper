@@ -1,0 +1,8 @@
+Options -MultiViews
+RewriteEngine On
+
+RewriteRule ^saved/([a-zA-Z0-9]{1,30}={0,2})$  /saved.php?id=$1 [L]
+RewriteRule ^saved/([a-zA-Z0-9]{1,30}={0,2})\.js$  /saved-javascript.php?id=$1 [L]
+RewriteRule ^save$ /save-projects.php [L]
+RewriteRule ^email-saved$ /email-saved.php [L]
+RewriteRule ^load-resources.js$ /load-resources-js.php [L]

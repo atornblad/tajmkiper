@@ -1,0 +1,3 @@
+* Validate input (no empty project names) - DONE!
+* Change button: Also edit name of project
+* Change button: Also delete project
